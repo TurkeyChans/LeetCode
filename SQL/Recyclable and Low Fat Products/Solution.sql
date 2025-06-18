@@ -17,4 +17,4 @@ values(0, 'Y', 'N'), (1, 'Y', 'Y'), (2, 'N', 'Y'), (3, 'Y', 'Y'), (4, 'N', 'N');
 select * from products;
 Select product_id
 From products
-where (low_fats = 'Y') & (recyclable = 'Y');
+where (low_fats = 'Y') and (recyclable = 'Y');
