@@ -1,4 +1,4 @@
-create database test3
+create database test3;
 use test3;
 CREATE TABLE World(
 name varchar(50),
